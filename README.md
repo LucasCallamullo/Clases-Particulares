@@ -5,7 +5,7 @@ Esto son algunos de los ejercicios y trabajos practicos y parciales realizados e
 Los ejercicios estos eran con los que hacíamos y con los cuales explicaba directamente a mis distintos estudiantes que tenía a cargo
 Algunos de los conceptos que realizamo fueron:
 
-# Buenas prácticas en el uso de condicionales simples y compuestos:
+## Buenas prácticas en el uso de condicionales simples y compuestos:
 
 Optimización de flujo de control: Uso adecuado de if, elif, y else para maximizar la eficiencia y legibilidad del código.
 Evitar la anidación excesiva: Preferencia por la utilización de operadores lógicos (and, or) para combinar condiciones, y reducir la complejidad.
