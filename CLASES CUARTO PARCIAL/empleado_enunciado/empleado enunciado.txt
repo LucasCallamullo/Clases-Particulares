@@ -1,0 +1,12 @@
+Empleado: Define una clase Empleado con atributos como nombre, salario y cargo(1, 4) 1:gerente, 2:cajero, 3:repositor, 4:jefe de caja, edad(18, 30).
+
+
+1 - cargar arreglo con n empleados y validar que n sea positivo, ademas debe estar ordenado en todo momento por nombre
+
+
+2- mostrar todos los datos a razon de uno por linea indicando la descripciones de los cargos en vez de sus numeros, y tambien debe solo mostrar los valores que superen un importe t.
+
+
+4 - A partir del arreglo genere un archivo binario que contenga los datos de todos los empleados que sean cajero repositor, jefedecaja, y que tenga edad mayor a x donde x es un valor ingresado por teclado y tambien debe informar si se cargaron o no el archivo con empleados 
+
+5 - Mostrar el archivo generado en el punto anterior indicando, al final una linea adicional, cuál es el sueldo promedio de los empleados cajero y repositor.

@@ -1,0 +1,16 @@
+Clase Producto
+Crea una clase llamada "Producto" con atributos como nombre, id de producto mayor a 0, precio, marca (55, 60) y categoría (1: Electrónica, 2: Ropa, 3: Alimentos). Asegúrate de que el precio sea mayor o igual a 0.
+
+1 - Crea una opción para cargar n productos en un arreglo, donde n es un valor ingresado por el usuario y debe ser positivo. Los productos se cargarán ordenados por id de producto.
+
+2 - Muestra los detalles de los productos, uno por línea pero debe las descripciones de las categorias de los productos.
+
+3 - Determina cuántos productos hay por categoría y marca,  y muestra solo los valores mayores a 0, tambien solo debe motras las que superen una marca 57.
+
+4 - Genera un archivo binario que contenga todos los productos con un precio mayor a un valor x, donde x es un valor ingresado por el usuario y que su categoria sea electronico o alimentos. Al final, indica cuántos registros se cargaron en el archivo.
+
+5 - Muestra el archivo generado en el punto anterior y notifica al usuario sobre el promedio de precios de los productos de las marcas inferiores o iguales a 57 en el archivo.
+
+6 - Realiza una búsqueda por categoria. Si existe, muestra todos los productos que cumplan con el criterio de búsqueda. Si no existe, informa al usuario.
+
+7 - Realiza una búsqueda por id de producto x, donde x es un id de producto. Si existe, muestra el primer producto que cumpla con la búsqueda y permite al usuario modificar su precio con un nuevo valor t. Si no existe, notifica al usuario.

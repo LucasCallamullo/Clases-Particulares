@@ -1,0 +1,19 @@
+4. (Parcial 2021) Oficina Legal
+Una oficina de asuntos legales mantiene información sobre los casos que tiene en cartera. Por cada caso se registran los campos siguientes: número de identificación del caso (un número entero), descripción del caso (una cadena), monto asociado a ese caso, tipo de asunto (un valor entre 30 y 33 incluidos, por ejemplo de la forma 30: divorcio, 31: desalojo, 32: herencia, 33:denuncias.) y un número que identifica el tribunal en que recayó ese caso (un número entero entre 1 y 3 incluidos, para indicar (por ejemplo): 1: sala 1, 2: sala 2, 3: sala 3) Se pide definir un tipo registro Caso con los campos que se indicaron, y un programa completo con menú de opciones para hacer lo siguiente: 
+
+1. Cargar El arreglo con n casos donde es un valor que ingresa por teclado y debe validar que sea positivo, debe crearse de forma que siempre quede ordenado de menor a mayor, según el número de identificación y para eso debe aplicar el algoritmo de inserción ordenada con búsqueda binaria. Se considerará directamente incorrecta la solución basada en cargar el arreglo completo y ordenarlo al final, o aplicar el algoritmo de inserción ordenada pero con búsqueda secuencial.
+
+2. Mostrar el arreglo creado en el punto 1, a razón de  un caso por línea, pero ademas debe mostrar la descripcion de la sala en vez del numero generado, pero solo mostrar los casos cuyo tribunal asignado sea diferente del t (siendo t un valor cargado por teclado).
+
+3. Cuantos casos existen por tipo y por tribunal, solo mostrar los valores que sean distintos de 0, y tambien debe solo mostrar los tipo de casos de divorcio y desalojo.
+
+4. A partir del arreglo, crear un archivo binario de registros en el cual se copien los datos de todos los casos cuyo tipo sea 3 o 4 y cuyo monto sea menor a un valor x que se carga por teclado.
+
+5. Mostrar el archivo creado en el punto anterior, a razón de un caso por línea en la pantalla. Mostrar al final una línea adicional indicando la cantidad de registros que se mostraron. Ademas debe mostrar el acumulado de los montos de los Casos que se mostraron.
+
+
+6 - Buscar en el arreglo creado en el punto 1 un objeto en el cual la descripción del caso sea igual a des (cargar des por teclado).  Si existe, mostrar por pantalla todos los datos de ese objeto. Si no existe, informar con un mensaje. La búsqueda debe detenerse al encontrar el primer objeto que coincida con el patrón pedido.
+
+
+7 - Buscar un Caso por id donde x representa al id. Si existe mostrar todos sus datos y si, además, el tipo es divorcio o desalojo agregar una linea que diga "caso ganable" y además aumentar su tarifa de monto un 25%  una vez hecha la modificacion debe mostrar sus nuevos datos, . Si el vehículo no existe informar con
+un mensaje
