@@ -1,9 +1,25 @@
 
 
-z_no/
+# Python bytecode
+__pycache__/
+*.pyc
 
+# Entornos virtuales
 .venv/
 venv/
+
+# Configuración de IDEs
 .idea/
-idea/
-__pycache__/
+.idea/*
+
+# Archivos temporales
+*.log
+*.bak
+*.swp
+
+# Archivos de dependencias
+*.env
+
+
+# mi carpeta
+z_no/
