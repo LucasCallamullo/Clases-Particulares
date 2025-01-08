@@ -1,0 +1,42 @@
+Ejercicio 1: Mix para poner en practica
+
+Crear un menu en python que pida previamente dos numeros que ingresan por teclado.
+Se pide un menu que posea las siguientes funciones por opciones:
+Una opcion de suma entre dos numeros ingresados por teclado. 
+Una opcion de promedio entre 4 numeros elegidos de forma aleatoria.
+Una opcion que calcule el 10% de un numero ingresado por teclado
+Una opcion que te permita saber cuantas vocales tiene una cadena ingresada por teclado.
+
+
+
+
+Ejercicio 2: Conversor de Monedas
+
+Escribe un programa que permita al usuario ingresar una cantidad en una moneda (por ejemplo, dólares) 
+y convertirla a otra moneda (por ejemplo, pesos) utilizando una tasa de cambio ingresada por el usuario.
+
+
+
+
+
+Ejercicio 3: Calculadora de Descuentos
+
+Escribe un programa que calcule el precio final de todos los precios de productos que ingrese el 
+usario hasta que no quiera ingresar mas, y después aplicar un descuento ingresado por el usuario. 
+El programa debe mostrar el precio total, el descuento y el precio final.
+
+
+Ejercicio 3: Calculadora de Estadísticas
+
+Crea un programa en Python que ofrezca un menú con las siguientes opciones:
+
+Calcular el Promedio: Permite al usuario ingresar una lista de números y calcula su promedio.
+
+Calcular la Mediana: Pide al usuario ingresar una lista de números y calcula su mediana. Asegúrate de manejar listas con una cantidad impar y par de elementos.
+
+Calcular la Desviación Estándar: Solicita al usuario ingresar una lista de números y calcula su desviación estándar.
+
+Calcular el Mínimo y el Máximo: Permite al usuario ingresar una lista de números y muestra el valor mínimo y máximo.
+
+Salir: Finaliza el programa.
+

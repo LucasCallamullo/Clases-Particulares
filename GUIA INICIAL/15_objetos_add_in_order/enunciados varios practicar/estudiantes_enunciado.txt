@@ -1,0 +1,14 @@
+Clase Estudiante
+Crea una clase llamada "Estudiante" con atributos como nombre, edad(18, 25), nota1, nota2, nota3 donde las notas son intervalos de (0, 10).
+
+Crea un método para cargar los n registros de estudiantes en un arreglo, validar que n sea positivo, deberan estar siempre ordenados por nombre.
+
+Muestra los datos de los estudiantes, uno por línea, mostrando el nombre, edad y promedio de calificaciones.
+
+Genera un archivo binario que contenga a todos los estudiantes cuyo promedio de calificaciones sea mayor a un valor ingresado por el usuario.
+
+Muestra el archivo generado en el punto anterior, indicando al final el promedio de edades de los estudiantes en el archivo binario.
+
+Realiza una búsqueda por nombre de estudiante. Si existe, muestra el registro y en el mismo renglon mostrar "Condicion: ", si el promedio de calificaciones es mayor igual a 8, también muestra "promocionado", si es mayor a 4 y menor a 8 mostrar "regular", sino "libre". Si no existe, informa al usuario.
+
+Realiza una búsqueda por edad de los estudiantes. Si existe, muestra a todos los estudiantes correspondientes. Si no existe, informa al usuario.

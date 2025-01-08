@@ -1,0 +1,31 @@
+
+Ejercicio 1: Un mix para poner en practica
+
+Generar una lista a partir de la siguiente tupla: nombres = ("Juan", "María", "Luis", "Ana", "Pedro", "Sofía", "Carlos", "Laura", "Miguel", "Isabel", "Antonio", "Elena", "José", "Ana", "Fernando")
+se pide un menu que contenga las siguiente opciones
+1- Mostrar la lista en orden alfabetico, se debe mostrar un nombre por linea
+2- Permitir al usuario buscar un nombre de la lista, esta opcion NO es independiente de la opcion 1 por lo tanto se debe ejecutar la mejor opcion de busqueda que corresponda en cada caso segun haya pasado por la opcion 1 antes o no.
+3- Modificar el tercer nombre de la lista. Esta opcion si depende de la primera opcion para realizarse.
+4- Permitir agregar más nombres en la lista y ordenar la lista alfabeticamente.
+5- Contar cuantos nombres unicos hay en la lista.
+
+
+Ejercicio 2: Vector Números
+
+Generar un arreglo con 10 numeros al azar entre 0 y 10, crear un menú de opciones que permita ordenarlos en orden ascendente, buscar un numero por teclado esta opcion es dependiente de la anterior, permitir agregar más numeros a la lista.
+
+
+Ejercicio 3: Calificaciones
+
+Crea un programa que permita al usuario ingresar las calificaciones de varios estudiantes. Debe ofrecer un menú con opciones para calcular el promedio, la calificación más alta y la calificación más baja. Se debe poder buscar una calificacion por opción. También debe permitir al usuario agregar más calificaciones o salir del programa.
+
+
+Ejercicio 4: Registro de Gastos
+
+Crea un programa que permita al usuario registrar sus gastos diarios. Debe ofrecer un menú con opciones para agregar gastos, ver el total gastado hasta el momento, ver el mayor monto gastado, y mostras los gastos ordenados de mayor a menor, se debe poder buscar un monto gastado ingresado por teclado y el mismo se debe responder con un mensaje diciendo si tuvo exactamente el mismo monto gastado este punto depende de que este ordenado de mayor a menor la lista.
+
+
+
+
+
+

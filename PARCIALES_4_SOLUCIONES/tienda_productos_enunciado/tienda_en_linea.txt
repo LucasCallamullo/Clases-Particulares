@@ -1,0 +1,17 @@
+
+Tienda en línea Desarrolla una clase Producto que contenga numero de identificacion, nombre del producto, marca de producto(555, 559) 
+555:Asus, 556: Gygabite, 557: AMD, 558:Logitech, 559:Redragon, 
+tipo de producto (1, 4) 1:Motherboard, 2: Procesador, 3:Ram, 4:Gabinete y precio.
+
+1 - Cargar un Arreglo con n cantidad de Productos donde n es un valor ingresado por teclado y debe validar que n sea positivo, de manera que en todo momento el arreglo se mantenga ordenado por id.
+
+2 - Mostrar los datos a razon de uno por linea pero no debe mostrar los valores enteros de marca y tipo sino sus descripciones. solamente muestres los datos que superen un valor de precio t, donde t es valor ingresado por teclado, ademas mostrar la cantidad de arreglos que se mostraron.
+
+3 - Determinar cuantos productos hay por marca y tipo, solo debe mostrar los valores a mayores 0, y los que sean de la marca amd, logitech y redragon
+
+4 - A partir del arreglo generar un archivo binario donde se incluyan los datos de todos los Productos que sean de la marca Asus o Gygabite, y tambien que superen un importe x, donde x es un valor ingresador por teclado, muestre al final la cantidad de productos que se cargaron en el archivo. 
+
+5 - Mostrar el archivo generado en el punto anterior indicando, al final, cuál es el costo promedio de los productos del tipo motherboard y procesador que se encontraban en el archivo.
+
+6 - buscar un valor num donde num es el id del producto, si existe mostrar sus datos y modifcarlos por un valor val que se ingresa por teclado, si no existe informar con mensaje
+ 

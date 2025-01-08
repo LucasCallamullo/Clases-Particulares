@@ -1,0 +1,17 @@
+Clase Libro
+Define una clase llamada "Libro" con atributos como título, año de publicación(2000, 2020) y género literario (1: Ficción, 2: Romantico, 3: Ciencia, 4: Misterio), y precio. Asegúrate que el precio sean mayores a 0.
+
+1 - Crea una opcion para cargar los n registros de libros en un arreglo, donde n es un valor ingresado por el usuario, validar que n sea positivo y deberán cargarse siempre estando ordenados por año de publicacion.
+
+2 - Muestra los datos de los libros, uno por línea, reemplazando el género literario con las palabras correspondientes.
+
+3 - Determinar cuantos libros hay por genero y año de publiacion, pero solo mostrar los valores que sean mayores a 0 y que sean de un año mayor a 2012
+
+4 - Genera un archivo binario que contenga todos los libros publicados después de un año x donde x es un valor ingresado por el usuario y que ademas sea del genero Ciencia o Misterio, al final debe indicar cuantos registros fueron cargados en el archivo si se genero.
+
+
+5 - Muestra el archivo generado en el punto anterior, indicando al final el promedio de los precios de los libros en el archivo binario que se hayan publicado antes del año 2015.
+
+6 - Realiza una búsqueda por tit donde tit hace referencia a título de un libro. Si existe, mostrar todos los que cumplan. Si no existe, informa al usuario.
+
+7 - Realiza una búsqueda por x donde x es un año de publicacion de los libros. Si existe, muestra el primer libro que corresponda a la busqueda modifica su precio por un valor t nuevo ingresado por el usuario. Si no existe, informa al usuario.

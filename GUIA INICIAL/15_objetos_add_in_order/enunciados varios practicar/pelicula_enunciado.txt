@@ -1,0 +1,17 @@
+# Película: Define una clase Película con atributos como título, duración minutos(1, 59), genero(1, 4)
+# # ( 1:Drama 2:Comedia 3:Romantico 4:Accion ), presupuesto sea mayor a 0
+# 1 : cargar los registros en un arreglo ordenados por alguna atributo, en este caso titulo
+# 2 : mostrar los datos a razon de uno por linea, pero mostrar las palabras correspondientes
+# a cada valor en vez del genero, y que supere un importe t ingresado por telcado
+
+# 4 : Generar un archivo binario que contenga a todas las peliculas que superen un presupuesto t
+# iungresado por el usuario.
+
+# 5 : Mostrar el archivo generado en el punto anterior indicando al final el promedio de los presupuestos
+# acumulados de las peliculas grabadas en el archivo binario
+
+
+# 7 : realizar una busqueda por titulo, si existe mostrar el registro y si el genero es drama o comedia
+# tambien debe mostrar "opcion recomendada", si no existe informar al usuario
+
+# 8 : Realizar una busqueda por genero, si existe mostrar si no existe ionformar al usuario

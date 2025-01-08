@@ -1,0 +1,16 @@
+. Empresa de TV+Internet
+Una empresa proveedora de servicios de TV e Internet solicita un programa para gestionar su facturación. Por cada cliente se define: identificación, nombre del titular, tipo de cliente (un valor entre 15 y 20 inclusive), tipo de producto (un valor en 1 y 4 inclusive; 1: TV   ,   2:Internet  , 3: Cable, 4:Cable + Internet, monto facturación mensual. A través de un menú de opciones, realizar los siguientes puntos:
+
+1 - Cargar un vector de n facturas, validando todos los posibles valores, la carga puede ser manual, automática, o bien puede implementar ambas. El arreglo debe generarse de tal manera que el mismo siempre se encuentre ordenado por numero de identificación
+
+2 - Mostar el contenido del vector a razón de un registro por línea, pero en vez del valor numerico de tipo de producto debe mostrarse su descripcion.
+
+3 - Buscar una factura con numero de identificación X, donde X se carga por teclado. Si existe mostrar sus datos y ademas modificar su valor de monto de factura por un valor imp donde imp es un valor ingresado por teclado, caso contrario indicar con un mensaje
+
+4 - A partir del arreglo del punto 1, generar una matriz por tipo de cliente y tipo de producto, donde cada componente contenga la cantidad de clientes  (24 contadores). Muestre de dicha matriz solo los valores que sean mayor a cero tambien debe mostrar solo los tipo de clientes mayores o iguales a 17.
+
+5 - A partir del arreglo, genere un archivo binario con todas las facturas que sean de un tipo de cliente X ingresado por parámetro y que su tipo de producto no sean ni TV o Internet. Indique por mensaje si al final se genero el archivo nuevo.
+
+6 - Muestre los registros de ese archivo y al final indique cual fue el total facturado solo para las facturas del producto CABLE + INternet. 
+
+7 - A partir del arreglo, para un tipo de producto X que se ingresa por teclado informar cual fue el total facturado y que porcentaje representa sobre el total de facturas del arreglo

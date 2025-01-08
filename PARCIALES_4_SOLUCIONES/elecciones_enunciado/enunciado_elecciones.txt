@@ -1,0 +1,19 @@
+# los siguientes datos: candidato(1, 3) , provincia (codificada de 1 a 23) y votante(codificado de 520 a 530)
+# cant_votos > 0.
+
+# 1 - cargar el arreglo ordenado por provincia
+
+# 2 - mostrar datos a razon de un por linea, pero en vez de mostrar los numeros de los candidatos debe
+# mostrar los nombres   (1: Massa, 2: Bullrich, 3:Milei)
+
+# 3 -  cantidad de votos acumulados por provincia y candidato, solo muestre los que tengan un valor superior a 0, y solo mostrar los de las provincias superiores a 12
+
+# 4 -A partir del arreglo generar un archivo binario donde se incluyan los datos de todos los elecciones
+# de las provincias menores o iguales a 14
+
+# 5 - Mostrar el archivo generado en el punto anterior y ademas al final debe mostrar los votos totales
+# de las provincias mayores a 7
+
+6 - Buscar un eleccion por c donde c es un provincia ingresado por teclado: Si existe mostrar todos sus datos y modificar los votos obtenidos por un valor x ingresado por teclado. Si la eleccion no existe informar con un mensaje
+
+7 - busquemos eun candidato cand que se ingresa por teclado, pero debemos mostrar todos los que sean ese candidato, al final debe mostrar cuantos candidatos se mostraron, si no existe tambien debe informar 

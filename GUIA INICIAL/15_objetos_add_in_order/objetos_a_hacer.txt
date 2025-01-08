@@ -1,0 +1,15 @@
+Coche: Crea una clase Coche con atributos como marca, modelo(1, 10) y año de fabricación.
+
+Libro: Define una clase Libro con atributos como título, autor(100, 110), precio mayor a 0 y género(1, 4).
+
+Cuenta Bancaria: Crea una clase CuentaBancaria que incluya nombre del titular, saldo y número de cuenta ambos mayores a 0.
+
+Película: Define una clase Película con atributos como título, presupuesto y duración en minutos (90, 180).
+
+Estudiante: Crea una clase Estudiante con atributos como nombre, edad y calificaciones.
+
+Tienda en línea: Desarrolla una clase TiendaEnLinea que contenga nombre, marca(5, 9), tipo de producto (1, 4) y precio.
+
+Empleado: Define una clase Empleado con atributos como nombre, salario y cargo(1, 10).
+
+Mascota: Crea una clase Mascota con atributos como nombre, tipo de animal y edad mayor a 0.

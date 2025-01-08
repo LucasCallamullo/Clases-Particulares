@@ -1,0 +1,16 @@
+Clase Cliente
+Crea una clase llamada "Cliente" con atributos como nombre, número de cliente (100, 120), saldo y categoría(1: Normal, 2: Preferencial, 3: VIP).. Asegúrate de que el saldo sea mayor o igual a 0 y que la categoría sea una de las siguientes 
+
+1 - Crea una opción para cargar n clientes en un arreglo, donde n es un valor ingresado por el usuario, asegurándote de que n sea positivo. Los clientes deben cargarse ordenados por número de cliente.
+
+2 - Muestra los detalles de los clientes, uno por línea, pero en vez de mostrar la categoría numerica debe mostrar su descripcion.
+
+3 - Determina cuántos clientes hay por categoría y numero de cliente y muestra solo los valores mayores a 0, y los numero de cliente superiores a 110.
+
+4 - Genera un archivo binario que contenga a todos los clientes con un saldo menor a un valor x, donde x es un valor ingresado por el usuario y ademas solo debe guardar los que sean de la categoria normal o preferencial. Al final, indica cuántos registros se cargaron en el archivo.
+
+5 - Muestra el archivo generado en el punto anterior y notifica al usuario sobre el promedio de saldos de los clientes VIP y PREFERENCIAL en el archivo.
+
+6 - Realiza una búsqueda por nom que se ingresa por teclado y representa al nombre de cliente. Si existe, muestra todos los clientes que cumplan con el criterio de búsqueda. Si no existe, informa al usuario.
+
+7 - Realiza una búsqueda por número de cliente x, donde x es un número de cliente. Si existe, muestra el primer cliente que cumpla con la búsqueda y permite al usuario modificar su saldo con un nuevo valor t ingresado por teclado, ademas si el cliente es preferencial o vip mostrar un mensaje indicando "cupon de descuento". Si no existe, notifica al usuario.
