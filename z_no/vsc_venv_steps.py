@@ -13,7 +13,12 @@ git add .
 git commit -m "update folders n .pys"
 
 
+git remote add origin https://github.com/LucasCallamullo/Clases-Particulares.git
+git branch -M main
+git push -u origin main
 
 
-https://github.com/LucasCallamullo/Clases-Particulares.git
+
+
+
     """
