@@ -92,8 +92,6 @@ lugar'''
 
     for i in linea:
 
-        # i = H,  O,  L A
-
         # Estamos dentro de una palabra
         if i != " " and i != ".":           # if not i in " .":     # if i in " .":
             # H
