@@ -8,7 +8,17 @@ class Vehiculo:
         self.importe = importe
 
     def __str__(self):
+        
+        if self.disponible:
+            mensaje = "Propietario"
+        else:
+            mensaje = "No Propietario"
 
+        
+        cadena = "Disponible: " + mensaje
+        
+        
+        
         # tamaños          1-1           2           3           4
         # indices           0           1           2           3
         tupla_tams = ("Subcompacto", "Compacto", "Mediano", "Grande")

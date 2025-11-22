@@ -200,31 +200,32 @@ def generar_matriz(v_vehiculos):
 # =================================================================
 #                   Opcion 6
 # =================================================================
-def busqueda_binaria(v_vehiculos, x):   # x = 5
-    # indices           0   1   2   3   4
-    # v_vehiculos = [   V1, V2, V3, V4, V5 ]
-    # id                2   3   4   5   6
+def busqueda_binaria(v_vehiculos, x):
 
     izq, der = 0, len(v_vehiculos) - 1
-    # izq = 3
-    # der = 4
 
-    while izq <= der:       # mientrass izq sea menor o igual a cero , ingreso al ciclo
-
-        c = (izq + der) // 2        # c = centro    = 2, 3
+    while izq <= der:
+        c = (izq + der) // 2
 
         # if v_vehiculos[c].id == auto.id:
         if v_vehiculos[c].id == x:
             # pos = c
             # break
-            return c    # 3
+
+            print(v_vehiculos[pos])
+
+            if 7 <= v_vehiculos[pos].tipo <= 9:
+                print("Opcion Ecologica!")
+
+            return   # corta la funcion al primer resultado
+
         # elif v_vehiculos[c].id > auto.id:
         elif v_vehiculos[c].id > x:
             der = c - 1
         else:
             izq = c + 1
 
-    return -1
+    print("No existe")
 
 
 def menu():
@@ -300,6 +301,20 @@ def main():
             mostrar_archivo_binario(fd)
 
         elif op == 6:
+            """
+            Buscar un vehículo por identificador. Si existe mostrar todos sus datos y si, además, 
+            el tipo de motor es GNC, Eléctrico o Hidrógeno entonces mostrar el mensaje “Opción ecológica!”. 
+            Si el vehículo no existe informar con
+            un mensaje
+            """
+            if len(v_vehiculos) > 0:
+                x = int(input("Ingresar numero id a buscar: "))
+                busqueda_binaria(v_vehiculos, x)
+
+            else:
+                print("El arreglo no esta cargado, ingrese a la opcion 1")
+
+        elif op == 7:
             """
             Buscar un vehículo por identificador. Si existe mostrar todos sus datos y si, además, 
             el tipo de motor es GNC, Eléctrico o Hidrógeno entonces mostrar el mensaje “Opción ecológica!”. 

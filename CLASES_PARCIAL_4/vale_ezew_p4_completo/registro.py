@@ -1,8 +1,8 @@
 
+
 class Libro:
 
     # isbn INT de 13 digitos, titulo STR, autor STR, idioma(1, 5), importe FLOAT, categoria(11, 13)
-
     def __init__(self, isbn, titulo, autor, idioma, importe, categoria):
         # ctrl + d
         self.isbn = isbn
