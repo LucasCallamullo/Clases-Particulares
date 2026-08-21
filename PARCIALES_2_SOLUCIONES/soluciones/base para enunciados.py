@@ -6,17 +6,15 @@
 
 def principal():
 
+
+    r1 = 0  # hace referencia a la respuesta
+    r2 = 0
+    r3 = 0  # hace referencia a la respuesta
+    r4 = 0      # hace referencia a la respuesta
+
     fd = "entrada.txt"
     m = open(fd, "rt")
     linea = m.readline()
-
-    r1 = 0  # hace referencia a la respuesta
-
-    r2 = 0
-
-    r3 = 0  # hace referencia a la respuesta
-
-    r4 = 0      # hace referencia a la respuesta
 
     for i in linea:
 

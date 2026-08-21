@@ -2,9 +2,8 @@
 
 class Paquete:
     # tipo_p (0, 19)                ; id > 0
-
-    # desc ( 1, 4) y que 1=A ; 2 = B ;  3 = C ; 4 = D pero por pantalla se debe mostrar el string que corresponda
-
+    # desc ( 1, 4) y que 1=A ; 2 = B ;  3 = C ; 4 = D pero por pantalla 
+    # se debe mostrar el string que corresponda
     def __init__(self, id, desc, tipo_p, cant_dias, importe):
         self.id = id            # ctrl + d
         self.desc = desc

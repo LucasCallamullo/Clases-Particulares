@@ -10,7 +10,7 @@ pip install virtual .venv
 git init
 
 git add .
-git commit -m "delete some duplicated"
+git commit -m "agregados nuevos parciales y desafios resueltos"
 
 
 git remote add origin https://github.com/LucasCallamullo/Clases-Particulares.git

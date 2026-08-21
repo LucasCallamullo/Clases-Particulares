@@ -42,15 +42,19 @@ def cargar_arreglo(v_elec, n):
 
 def add_in_order(v_elec, elec):
 
-    izq, der = 0, len(v_elec) - 1           # E1.provincia: 6       # elec.provincia = 5
+    # E1.provincia: 6
+    # elec.provincia = 5
+    izq, der = 0, len(v_elec) - 1                  
 
     while izq <= der:
         c = (izq + der) // 2
         if v_elec[c].provincia == elec.provincia:
             pos = c
             break
-        elif v_elec[c].provincia > elec.provincia:          # si se come al vector es de menor a mayor
-            der = c - 1                                     # si se come al objeto es de mayor a menor
+        # si se come al vector es de menor a mayor
+        # si se come al objeto es de mayor a menor
+        elif v_elec[c].provincia > elec.provincia:          
+            der = c - 1                                     
         else:
             izq = c + 1
 

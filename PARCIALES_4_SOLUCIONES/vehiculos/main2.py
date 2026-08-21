@@ -209,9 +209,8 @@ def busqueda_binaria(v_vehiculos, x):
 
         # if v_vehiculos[c].id == auto.id:
         if v_vehiculos[c].id == x:
-            # pos = c
+            pos = c
             # break
-
             print(v_vehiculos[pos])
 
             if 7 <= v_vehiculos[pos].tipo <= 9:
